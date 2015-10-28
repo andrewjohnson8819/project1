@@ -2,9 +2,24 @@
   box-sizing: border-box;
 }
 
-header {
+body {
+  background: url(felt.jpg);
+}
 
+.pokerTable {
+  width: 700px;
+  height: 319px;
+  border: solid lemonchiffon;
+  margin: 0 auto;
+  position: relative;
+  top: -316px;
+  border-radius: 120px;
+  z-index: -1;
+}
+
+header {
   font-weight: bold;
+  color: lemonchiffon;
   font-size: 30px;
   width: 220px;
   display: block;
@@ -15,7 +30,7 @@ header {
 }
 
 #board1 {
-  border: 1px solid orange;
+  /*border: 1px solid orange;*/
   width: 202px;
   overflow: auto;
   margin: 0 auto;
@@ -31,11 +46,12 @@ header {
   float: right;
   text-align: center;
   font: 20px sans-serif;
+  color: white;
   padding-top: 50px;
   border-radius: 10px;
 }
 
-.player1sec{
+.player1sec {
   width: 80px;
   height: 100px;
   border: 2px solid navy;
@@ -48,7 +64,7 @@ header {
 }
 
 #board2 {
-  border: 1px solid orange;
+  /*border: 1px solid orange;*/
   width: 202px;
   overflow: auto;
   margin: 0 auto;
@@ -63,6 +79,7 @@ header {
   border: 2px solid #B20000;
   float: left;
   text-align: center;
+  color: white;
   font: 20px sans-serif;
   padding-top: 50px;
   border-radius: 10px;
