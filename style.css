@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+
+  font-weight: bold;
+  font-size: 30px;
+  width: 220px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+  left: 6px;
+}
+
+#board1 {
+  border: 1px solid orange;
+  width: 202px;
+  overflow: auto;
+  margin: 0 auto;
+  position: relative;
+  top: 120px;
+  left: -160px;
+}
+
+.player1 {
+  width: 118px;
+  height: 150px;
+  border: 2px solid navy;
+  float: right;
+  text-align: center;
+  font: 20px sans-serif;
+  padding-top: 50px;
+  border-radius: 10px;
+}
+
+.player1sec{
+  width: 80px;
+  height: 100px;
+  border: 2px solid navy;
+  float: right;
+  text-align: center;
+  font: 20px sans-serif;
+  margin-top: 25px;
+  border-radius: 10px;
+  margin-right: 2px;
+}
+
+#board2 {
+  border: 1px solid orange;
+  width: 202px;
+  overflow: auto;
+  margin: 0 auto;
+  position: relative;
+  top: -32px;
+  left: 160px;
+}
+
+.player2 {
+  width: 118px;
+  height: 150px;
+  border: 2px solid #B20000;
+  float: left;
+  text-align: center;
+  font: 20px sans-serif;
+  padding-top: 50px;
+  border-radius: 10px;
+}
+
+.player2sec {
+  width: 80px;
+  height: 100px;
+  border: 2px solid #B20000;
+  float: left;
+  text-align: center;
+  font: 20px sans-serif;
+  margin-top: 25px;
+  border-radius: 10px;
+  margin-left: 2px;
+}
+
+.reset {
+  display: block;
+  width: 50px;
+  margin: 0 auto;
+  position: relative;
+  left: 2px;
+}
+
+.reset:focus {
+  outline: 0;
+}
